@@ -1,0 +1,97 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background:url('https://images.unsplash.com/photo-1581034045017-d2904dfcc752?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyZXklMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+}
+.heading{
+	display: inline-block;
+	width: 100%;
+	height: 5rem;
+	text-align: center;
+	color: #fff;
+    background:url('https://cdn.wallpapersafari.com/37/63/SEGway.jpg');
+}
+.heading h1{
+	font-family: Arial, Helvetica, sans-serif ;
+	font-weight: 700;
+	text-shadow: 2px 2px 4px gray;
+}
+
+.app{
+	display:flex;
+	margin-top: 2rem;
+	margin-right: 2rem;
+}
+.app .controls{
+	margin-right:5rem;
+	display:flex;
+	flex-direction:column;
+	padding: 1rem 1rem 1rem 0;
+	height: 80vh;
+	background: rgb(62, 63, 62);
+}
+.app .controls div{
+	padding: 1rem;
+	
+	
+}
+input{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	margin: 10px 0 0 0;
+	padding:10px;
+	border: none;
+	font-size:1rem;
+
+}
+#title{
+	background:rgb(12, 12, 12);
+	font-size: 1.4rem;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color:#fff;
+	text-shadow: 1px 2px 2px rgb(53, 40, 40);
+
+}
+#title1{
+	background:rgb(21, 22, 22);
+	font-size: 1.4rem;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color:#fff;
+	text-shadow: 1px 2px 2px rgb(53, 40, 40);
+
+}
+input:active{
+	border:solid 1px #ffffff;
+}
+
+.btn{
+	text-align: center;
+	background-color:rgb(129, 138, 138);
+	margin: 10px;
+	font-size: 1.3rem;
+	cursor: pointer;
+	transition:ease-in 0.4s;
+}
+.btn:hover{
+	
+	background:  rgb(17, 16, 16);
+    color:white;
+}
+
+.project #canvas{
+	background: #fff;
+	margin: 1rem;
+	width: 100%;
+	height: 80%;
+	border-radius: 3px;
+	box-shadow: 5px 5px 10px rgb(63, 61, 61);
+}
+
+
+
